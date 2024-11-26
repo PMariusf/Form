@@ -14,10 +14,13 @@ body {
     background-color: #7e6b6b;
     color: #333;
     padding: 20px;
+    background-image: url("wowbackground.png");
+    background-color: #cccccc;
 }
 
 /* Form Container */
 form {
+  
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -29,10 +32,11 @@ form {
 
 /* Labels */
 form label {
+  
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #555;
+    color: #121010;
 }
 
 /* Inputs and Textareas */
@@ -71,6 +75,7 @@ form button:hover {
 
 /* Output Div */
 div[id$="-output"] {
+    opacity: 0.5;
     max-width: 600px;
     margin: 20px auto;
     padding: 15px;
