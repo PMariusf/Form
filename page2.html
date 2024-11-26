@@ -4,14 +4,33 @@
     <title>Other page</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stylestwo.css" />
     <script type="module" src="script.js"></script>
   </head>
-  <body>
+  <header>
     <nav>
       <a href="/">Home</a>
       <a href="/page2.html" aria-current="page">Other page</a>
     </nav>
+  </header>
+  <body>
+    div class="card-container">
+    <div class="card">
+      <!-- Front of the card -->
+      <div class="card-front">
+        <h3>Welcome click Clicky!</h3>
+      </div>
+      <!-- Back of the card -->
+      <div class="card-back">
+        <h3>Gief your Commands!</h3>
+        <ul id="todo-list">
+          <!-- Dynamic to-do items will appear here -->
+        </ul>
+        <input type="text" id="todo-input" placeholder="Sum ting wong!">
+        <button id="add-todo-btn">Add</button>
+      </div>
+    </div>
+  </div>
     <main>
       <h1>My other page</h1>
     </main>
