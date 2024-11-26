@@ -15,16 +15,18 @@ body {
     color: #333;
     padding: 20px;
     background-image: url("wowbackground.png");
-    background-color: #cccccc;
+    background-color: #1f1b1b;
 }
 
 /* Form Container */
+
+
 form {
-  
+
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background: rgb(155, 140, 140);
+    background: rgb(129, 121, 121);
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
