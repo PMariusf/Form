@@ -31,8 +31,6 @@ li a:hover {
   background-color: #111;
 }
 
-
-
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
@@ -45,7 +43,6 @@ body {
 }
 
 /* Form Container */
-
 
 form {
 
@@ -128,125 +125,3 @@ div[id$="-output"] {
     div[id$="-output"] {
         padding: 10px;
     }
-
-
-
-
-
-
-
-
-/*body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  padding: 10px; /* Add padding to handle smaller screens */
-  /*box-sizing: border-box; /* Ensure padding is included in width/height */
-/*}
-
-.form-container {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-  perspective: 1000px;
-  transform: rotateY(-10deg) rotateX(5deg);
-  transition: transform 0.5s;
-  width: 100%; /* Make it responsive */
- /* max-width: 400px; /* Limit the maximum size */
-/*}
-
-.form-container:hover {
-  transform: rotateY(0) rotateX(0);
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5em; /* Adjust for smaller screens */
-/*}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 1em; /* Ensure label text scales */
-/*}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0.9);
-  color: #333;
-  font-size: 1em;
-  box-sizing: border-box; /* Include padding in element's size */
-/*}
-
-input:focus, textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px #6a11cb;
-}
-
-.btn {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background: #6a11cb;
-  color: white;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #2575fc;
-}
-
-#output {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 1em;
-  word-wrap: break-word; /* Ensure long text wraps correctly */
-}
-
-/* Media Queries for Smaller Screens */
-/*@media (max-width: 768px) {
-  body {
-      padding: 20px; /* Extra padding for smaller devices */
-  /*}
-
-  .form-container {
-      transform: none; /* Disable 3D rotation for smaller screens */
-    /*  width: 100%;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  }
-
-  h2 {
-      font-size: 1.2em; /* Adjust title size */
-  /*}
-
-  .btn {
-      font-size: 0.9em; /* Slightly smaller button text */
-  /*}
-}
-
-@media (max-width: 480px) {
-  h2 {
-      font-size: 1em; /* Further scale down for small phones */
- /* }
-
-  .btn {
-      padding: 8px; /* Smaller buttons */
-  /*}
-/*}
