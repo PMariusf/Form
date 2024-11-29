@@ -56,6 +56,12 @@ body {
     height: 100vh;
     
   }
+  .close {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
   
   main,
   .back {
